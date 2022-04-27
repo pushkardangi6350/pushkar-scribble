@@ -1,0 +1,231 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+button:hover {
+ opacity:1;
+}
+.topButtons {
+ width: 90px;
+ padding: 10px;
+ cursor: pointer;
+ font-weight: 500;
+ font-size: 90%;
+ background: #0000ff;
+ color: #fff;
+ float: right;                  
+ margin: 10px 10px 0px 0px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.postButtons {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 85%;
+    background: #0000ff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: darkgoldenrod;
+   /* margin: 10px 10px 0px 0px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.logo-title {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    color: #112fb4;
+    margin: auto;
+    text-decoration: none;
+    margin: 10px 10px 0px 10px;    
+}
+h1{
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+.middleText{
+    font-family: 'Marck Script', cursive;
+    margin-top: 0;
+    margin: 0 0 0px 10px;
+    }
+ .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  /* sign Up modal box */
+  .signUpM{
+    display: none; /* Hidden by default */
+    position:relative ;/* Stay in place */
+    margin : 8px; 
+    padding:10px;
+    }
+ #modalH,.mI1{
+    text-align: center;
+    font-family: 'Abel',sans-serif;
+ }
+ /* sign up Modal Content Box */
+ .SignUpcont {
+   background-color: #fefefe;
+   margin:auto; /* 15% from the top and centered */
+   padding: 10px;
+   border: 2px solid rgb(10, 8, 8);
+   width: 300px; /* Could be more or less, depending on screen size */
+   /* text-align: center; */
+   
+ }
+ /* The Close Button */
+ .close1 {
+   color: #aaa;
+   float : right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ .close1:hover,
+ .close1:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+  input[type=button] {
+    width: 100%;
+    background-color: #0ec038;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #1d5a20;
+  }
+  input[type=text],
+  input[type=password]{
+    width: 100%;
+    padding : 8px ;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #redirect
+ {
+   color: dodgerblue;
+   cursor: pointer;
+   font-style: italic;
+ } 
+  #mI1{
+      margin-top: 4px;
+      font-family: 'Rockwell Condensed';
+      font-weight: bold;
+  }
+
+  /* Sign In Modal box */
+  .signInM{
+    display: none; /* Hidden by default */
+    position:relative ;/* Stay in place */
+    margin : 8px; 
+    padding:10px;
+    }
+    .signInContent{
+   background-color: #fefefe;
+   margin:auto; /* 15% from the top and centered */
+   padding: 10px;
+   border: 2px solid rgb(10, 8, 8);
+   width: 300px;
+    }
+    .close {
+        color: #aaa;
+        float : right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .closealB {
+        color: #aaa;
+        float : right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .closealB:hover,
+      .closealB:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+/* Modal for create post */
+.createP{
+    display: none; /* Hidden by default */
+    position:relative ;/* Stay in place */
+    margin : 8px; 
+    padding:10px;
+    }
+.createPostContent{
+   background-color: #fefefe;
+   margin:auto; /* 15% from the top and centered */
+   padding: 10px;
+   padding-left: 35px;
+   border: 2px solid rgb(10, 8, 8);
+   width: 800px;
+}
+#title1{
+  height: 25px;
+  width: 275px;
+  padding: 5px;
+  text-align: left;
+}
+#content{
+  height: 150px;
+  width: 750px;
+  /* padding: 2px; */
+  text-align: left;
+  background-color: rgba(255, 254, 254, 0.925);
+}
+#head1{
+  text-align: center;
+}
+#sub2{
+  width:75px ;
+  height: 25px;
+  text-align: center;
+  display: block;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding: 5px;
+}
+#crPoF{
+  display: block;
+  text-align: left;
+}
+   /* The Close Button for create post*/
+    .closepost {
+      color: #aaa;
+      float : right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .closepost:hover,
+    .closepost:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
