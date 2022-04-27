@@ -1,0 +1,78 @@
+#edit{
+	display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	color: white;
+	font-family: serif;
+	font-size: 19px;
+	border: 1px solid pink;
+	height: 30px;
+	width: 75px;
+	background-color: deeppink;
+	text-align: center;
+	padding-top: 6px;
+    float: right;
+    cursor: pointer;
+}
+#editL{
+    float: left;
+    display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	color: white;
+	font-family: serif;
+	font-size: 19px;
+	border: 1px solid pink;
+	height: 30px;
+	width: 75px;
+	background-color: deeppink;
+	text-align: center;
+	padding-top: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+ #commentBox button{
+	height: 35px;
+	width: 95px;
+	margin-top: 5px;
+	background-color: deeppink;
+	border: 0px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#jimi{
+    font-family: 'Edwardian Script ITC', cursive;
+    font-style: italic ;
+    font-size: 45px;
+}
+.blogText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: content-box;
+}
+.blogAuthor{
+    display: inline;
+
+}
+#blogBody{
+    text-align: justify;
+    margin: 5px;
+    padding: 3px;
+}
+#blogTitleNew{
+    font-family: 'Agency';
+    margin: 5px;
+    padding: 3px;
+}
+.content{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+}
+#textarea{
+    margin: 5px;
+    padding: 3px;
+    border: 1px;
+    border-style: solid ;
+
+}
