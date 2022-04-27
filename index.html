@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>   
+        <link href='../final project/css/index.css' rel='stylesheet' type='text/css'>
+        <link href='../final project/css/font.css' rel='stylesheet' type='text/css'> 
+        <style>
+          body{
+                background-image: url('background.jpg');
+                background-size: cover;
+        }
+        </style>
+</head>
+<body>    
+        <div class="header">
+            <button id ="signUpB" class="topButtons">Sign Up</button>   
+            <button id ="signInB" class="topButtons">Sign In</button>   
+            <a id="pageTitle" class="logo-title">ScriBBler</a>
+            <p class="middleText">Explore Imagine Create</p>
+        </div> 
+        <div class="center">
+                <button id ="allPostB" class="postButtons" onclick>All Post</button> 
+                <button id ="createPostB" class="postButtons">Create Post</button> 
+        </div>  
+        <div id="mainContent">      
+        <div id="signUp" class="signUpM">
+                <!--Sign Up Modal constent -->
+                <div class ='SignUpcont'>
+                        <span class="close1">&times;</span>
+                        <h1 id="modalH">Get Started</h1>
+                        <form>
+                                <!-- <h4 class="mI1">Full Name</h4> -->
+                                <label id="m1">Full Name</label>
+                                <input type="text" placeholder="Enter Full Name" required>
+                                <label id="m1">Username</label>
+                                <input type="text" placeholder="Enter Username" required>
+                                <label id="m1" >Password</label>
+                                <input type="password" placeholder="Enter Password" required>
+                                <label id="m1">Confirm Password</label>
+                                <input type="password" placeholder="Confirm Password" required><br>
+                        <!-- <button id="sub1">Sign Up</button>  -->
+                                <input type="button" value="Sign Up">
+                        </form>
+                </div>
+        </div> <!--sign up modal closure-->
+         <!--code for Sign In modal -->
+         <div id="signIn" class="signInM">
+                <!-- sign In Modal content -->
+                <div class="signInContent">
+                  <span class="close">&times;</span>
+                  <h1 id="head1">Welcome Back!</h1>
+                  <form>
+                        <label id="m1">Username</label>
+                        <input type="text" placeholder="Enter Username">
+                        <label id="m1" >Password</label>
+                        <input type="password" placeholder="Enter Password">
+                        <input type="button" id="sub1" value="Sign In"></input>  <br><br>
+                        <div id="nm">Not a member? <span id="redirect">Sign Up</span></div> 
+                  </form>
+                </div>
+              </div><!-- sign In modal closure-->
+              <div><!--Create post modal-->
+                <div id="createPostM" class="createP">
+                <!-- Modal content -->
+                    <div class="createPostContent">
+                        <span class="closepost">&times;</span>
+                        <h1 id="head1">Pen Your Post</h1>
+                        <form id="crPoF"> <br>
+                        <label id="mcr1" style="text-align: left;">Title:</label><br>
+                        <input type="textbox" id="title1">
+                        <br><br>
+                        <label id="mcr1" style="text-align: left;">Content:</label><br>
+                        <input type="textarea" id="content">
+                        <button id="sub2">Create</button>
+                        </form>
+                      </div>          
+                </div>             
+              </div>
+
+
+
+
+
+
+
+
+
+
+        </div> <!-- mainContent closure -->
+        <script src="jsf/index.js"></script>  <!--js file for create post  -->
+        <script src="jsf/sign.js"></script> <!-- js file for Sign in and asign up-->
+</body>
+</html>
